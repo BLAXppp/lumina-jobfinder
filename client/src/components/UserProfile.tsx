@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { User, Mail, MapPin, Phone, Briefcase, GraduationCap, Save, Tag, Sparkles } from 'lucide-react';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../context/Authcontext';
 
 export default function UserProfile() {
   const { user, updateProfile } = useAuth();

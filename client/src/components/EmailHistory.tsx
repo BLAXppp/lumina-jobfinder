@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Mail, Clock, CheckCircle, XCircle, RefreshCw, Send, FileText } from 'lucide-react';
 import { emailService } from '../services/api';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../context/Authcontext';
 
 export default function EmailHistory() {
   const [emails, setEmails] = useState<any[]>([]);

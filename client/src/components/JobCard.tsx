@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { MapPin, DollarSign, Clock, Users, Send, Tag } from 'lucide-react';
 import { Job } from '../types';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../context/Authcontext';
 import { useState } from 'react';
 import { jobService } from '../services/api';
 

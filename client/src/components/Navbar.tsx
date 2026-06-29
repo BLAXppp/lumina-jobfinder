@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, User, LogOut, LogIn, Mail, FileText } from 'lucide-react';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../context/Authcontext';
 import { Link, useLocation } from 'react-router-dom';
 
 interface NavbarProps {
