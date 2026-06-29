@@ -15,8 +15,6 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
-    // "baseUrl": "."  ← YE HATAO YA COMMENT KARO
   },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src"]
 }
