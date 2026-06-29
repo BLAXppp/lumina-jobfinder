@@ -1,6 +1,6 @@
 import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import { useAuth } from './context/AuthContext';
+import { useAuth } from './context/Authcontext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import JobList from './components/JobList';
