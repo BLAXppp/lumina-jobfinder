@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Search, Send, Tag, CheckCircle } from 'lucide-react';
 import { jobService } from '../services/api';
-import { useAuth } from '../context/Authcontext';
+import { useAuth } from '../context/AuthContext';
 
 export default function JobList() {
   const [jobs, setJobs] = useState<any[]>([]);
