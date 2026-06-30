@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { motion } from 'motion/react';
+import { motion } from "framer-motion";
 import { Send, Zap, Tag, CheckCircle } from 'lucide-react';
 import { emailService } from '../services/api';
 import { useAuth } from '../context/AuthContext';
